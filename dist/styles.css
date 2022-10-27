@@ -48,13 +48,18 @@ nav > ul > li{
 }
 
 #hero > h1{
-    font-size: 5rem;
+    font-size: clamp(3rem, 6vw, 5rem);
     width: 0;
     align-self: center;
     text-shadow: -7px 8px 2px rgba(0,0,0,1);
 }
 #hero > h3{
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 3rem);
     align-self: center;
     text-shadow: -7px 8px 2px rgba(0,0,0,1);
+}
+
+#content-div{
+    width: 100%;
+    height: calc(100vh - 120px);
 }
