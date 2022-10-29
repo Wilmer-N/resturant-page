@@ -1,4 +1,5 @@
 
+import css from './style.css';
 import { createHome } from "./home.js"
 import { createMenu } from "./menu"
 import { createContact } from "./contanct"
